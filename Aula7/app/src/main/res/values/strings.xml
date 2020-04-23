@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aula 7</string>
+    <string name="tela_1">Tela 1!</string>
+    <string name="tela_2">Tela 2!</string>
+    <string name="btn_tela2">Chamar tela 2</string>
+    <string name="title_activity_2">Activity2</string>
+</resources>
