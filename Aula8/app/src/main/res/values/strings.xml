@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Time do Coração</string>
+    <string name="visualizar">Visualizar</string>
+    <string-array name="serieA">
+        <item>Athletico</item>
+        <item>Atlético-GO</item>
+        <item>Atlético-MG</item>
+        <item>Bahia</item>
+        <item>Botafogo</item>
+        <item>Ceará</item>
+        <item>Corinthians</item>
+        <item>Coritiba</item>
+        <item>Flamengo</item>
+        <item>Fluminense</item>
+        <item>Fortaleza</item>
+        <item>Goiás</item>
+        <item>Grêmio</item>
+        <item>Internacional</item>
+        <item>Palmeiras</item>
+        <item>RB Bragantino</item>
+        <item>Santos</item>
+        <item>São Paulo</item>
+        <item>Sport</item>
+        <item>Vasco</item>
+    </string-array>
+    <string-array name="serieB">
+        <item>América-MG</item>
+        <item>Avaí</item>
+        <item>Botafogo-SP</item>
+        <item>Brasil de Pelotas</item>
+        <item>CRB</item>
+        <item>CSA</item>
+        <item>Chapecoense</item>
+        <item>Confiança</item>
+        <item>Cruzeiro</item>
+        <item>Cuiabá</item>
+        <item>Figueirense</item>
+        <item>Guarani</item>
+        <item>Juventude</item>
+        <item>Naútico</item>
+        <item>Oeste</item>
+        <item>Operário-PR</item>
+        <item>Paraná</item>
+        <item>Ponte Preta</item>
+        <item>Sampaio Corrêa</item>
+        <item>Vitória</item>
+    </string-array>
+</resources>
