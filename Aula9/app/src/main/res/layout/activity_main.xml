@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/etNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/numero_1"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/numero_2"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnAdicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="adicaoResultado"
+            android:text="@string/adicao" />
+
+        <Button
+            android:id="@+id/btnSubtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="subtracaoResultado"
+            android:text="@string/subtracao" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnMultiplicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="multiplicacaoResultado"
+            android:text="@string/multiplicacao" />
+
+        <Button
+            android:id="@+id/btnDivisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="divisaoResultado"
+            android:text="@string/divisao" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/lvResultados"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_span="2"
+            android:layout_marginTop="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limparResultado"
+            android:text="@string/limpar"
+            android:layout_marginTop="20dp" />
+    </TableRow>
+
+</TableLayout>
