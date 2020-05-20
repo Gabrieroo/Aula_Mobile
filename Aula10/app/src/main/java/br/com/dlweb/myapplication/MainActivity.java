@@ -50,7 +50,11 @@ public class MainActivity extends AppCompatActivity {
         sql.append("curso VARCHAR(40)");
         sql.append(");");
         try {
-            db.execSQL(sql.toString());
+			//Executar (execSQL) um comando SQL de criação de tabela por vez.
+			String[] queries = sql.toString().split(";");
+			for(String query : queries){
+				db.execSQL(query);
+			}
         } catch (SQLException e) {
             Toast.makeText(getApplicationContext(), "Error: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
